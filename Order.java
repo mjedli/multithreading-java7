@@ -11,6 +11,12 @@ public class Order {
         this.quantity = quantity;
     }
 
+    public Order(Type type, int quantity) {
+        this.type = type;
+        this.trader = "Callable";
+        this.quantity = quantity;
+    }
+
     public Type getType() {
         return type;
     }
